@@ -1,0 +1,174 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #fc8019;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Align logo and navbar */
+    align-items: center;
+    padding-left: 20px; /* Space between the logo and left edge */
+    padding-right: 20px; /* Optional: Space on the right side */
+}
+
+h1 {
+    font-size: 180px;
+}
+
+/* Logo Styling */
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header .logo-img {
+    height: 60px;  /* Adjust the size of the logo */
+    width: 60px;
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Main Section Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.login-section {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1em;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e55347;
+}
+
+/* Signup Link */
+.signup-link p {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content p {
+    font-size: 1em;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links .social-icon {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+footer .social-links .social-icon:hover {
+    color: #ff6347;
+}

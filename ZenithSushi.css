@@ -1,0 +1,147 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #fc8019;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Align logo and navbar */
+    align-items: center;
+    padding-left: 20px; /* Space between the logo and left edge */
+    padding-right: 20px; /* Optional: Space on the right side */
+}
+
+h1 {
+    font-size: 180px;
+}
+
+/* Logo Styling */
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+header .logo-img {
+    height: 60px;  /* Adjust the size of the logo */
+    width: 60px;
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+/* Main Content Styling */
+main {
+    padding: 40px 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.menu-item .order-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item .order-btn:hover {
+    background-color: #e55347;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content p {
+    font-size: 1em;
+}
